@@ -311,7 +311,7 @@ const AppSidebar: React.FC = () => {
       >
         <Link href="/" className="flex items-center">
           {(isExpanded || isHovered || isMobileOpen) && (
-            <span className="ml-3 text-xl font-semibold text-brand-500 dark:text-brand-400">Zinza Technology</span>
+            <span className="ml-3 text-xl font-semibold text-brand-500 dark:text-brand-400">WSM System</span>
           )}
         </Link>
       </div>

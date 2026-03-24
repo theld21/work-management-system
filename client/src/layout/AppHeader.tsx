@@ -82,7 +82,7 @@ const AppHeader: React.FC = () => {
           </button>
 
           <Link href="/" className="flex items-center lg:hidden">
-            <span className="ml-3 text-xl font-semibold text-brand-500 dark:text-brand-400">Zinza Technology</span>
+            <span className="ml-3 text-xl font-semibold text-brand-500 dark:text-brand-400">WSM System</span>
           </Link>
 
           <button

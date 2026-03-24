@@ -29,3 +29,12 @@ const setupAdmin = async () => {
 };
 
 module.exports = setupAdmin;
+
+if (require.main === module) {
+  require("dotenv").config();
+  const connectDB = require("../config/db");
+  connectDB().then(async () => {
+    await setupAdmin();
+    process.exit(0);
+  });
+}
